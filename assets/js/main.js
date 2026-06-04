@@ -39,10 +39,13 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title"><img src="images/logo.png" alt="Logo"></span>' +
 				'</div>'
-			)
-				.appendTo($body);
+				)
+				.appendTo($body)
+				.css({
+					borderBottom: '5px red solid'
+				});
 
 		// Panel.
 			$(
