@@ -2079,6 +2079,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 5px;
+			opacity: 0.5;
 		}
 
 		.image.left {
@@ -2701,7 +2702,7 @@ h2 {
 	}
 
 		#banner header {
-			position: absolute;
+			position: Static;
 			bottom: 0;
 			left: 0;
 			width: 100%;
@@ -2716,6 +2717,7 @@ h2 {
 				margin: 0;
 				font-size: 1.25em;
 				vertical-align: middle;
+				position: ;
 			}
 
 				#banner header h2 em {
@@ -2744,6 +2746,10 @@ h2 {
 		.wrapper.style1 {
 			background: #ffffff;
 		}
+		
+		/*.wrapper.style1:hover {
+			transition: scale(1.05) 0.3s;
+		}*/
 
 		.wrapper.style2 {
 			background-color: #fff;
@@ -3065,7 +3071,7 @@ h2 {
 
 			#titleBar {
 				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
 				-moz-transition: -moz-transform 0.5s ease;
